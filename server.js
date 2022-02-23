@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const app = express();
 const mysql = require("mysql2");
 const auth = require("./routes/auth");
-const purch = require("./routes/purch");
 
 app.use(cors());
 app.use(bodyParser.json());
